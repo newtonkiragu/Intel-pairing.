@@ -4,31 +4,28 @@
 from random import shuffle
 
 # Opens a text file with names of students
-with open('random.txt') as names:
-  class_names = names.readlines()
+with open('x.txt') as x_names:
+  names = x_names.readlines()
 
 # print(class_names)
 
 # Strips the line breaks
-name_list = [name.strip() for name in class_names]
+x_list = [name.strip() for name in names]
 # print(name_list)
 
-"""
-  Randomizing the name_list. This is because we want also the main_list to be randomized so that when we divide the list in half
-  we don't have the same halves each time.
-"""
-shuffle(name_list) 
 
-first_half = name_list[:len(name_list)//2]
-# print(first_half)
-second_half = name_list[len(name_list)//2:]
+with open('k.txt') as k_names:
+  names = k_names.readlines()
+
+k_list = [name.strip() for name in names]
+
 
 # Randomizes the name list
-shuffle(first_half)
-shuffle(second_half)
+shuffle(x_list)
+shuffle(k_list)
 
 # Transforms the two list into a list with tuples with pairs
-pair_list = list(zip(first_half, second_half))
+pair_list = list(zip(x_list, k_list))
 # print(pair_list)
 
 # Creates and writes the name of pairs

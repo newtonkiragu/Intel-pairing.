@@ -1,13 +1,13 @@
-Michael Kinuthia Karanja, Eric Mwendwa
-Vivvianne Kimani, Habiba Juma
-James Macharia, Protus Oduor
-Margaret Wairimu, Louisa Konchellah
-Cynthia Muriithi, Cheruiyot Collins
-Catherine Wangui njoka, Duncan Arani
-Naomi Mukuhi, Jimmi Muriuki Karuiru
-Melissa Malala, Kamran Sumar
-Luoisa Konchellah, Victor Ireri
-Kalama Hafisau, James Herbert Agembe
-Daniel Mutai, Tonny Muchui Murungi
-Hassib Ibrahim, Tom Maina Chege
-Tony Kioko, Wycliff Kenyoni
+Naomi Mukuhi, Duncan Arani
+Daniel Mutai, *Joseph Maker.
+Kamran Sumar, *Tonny Muchui Murungi
+James Herbert Agembe, Vivvianne Kimani
+Melissa Malala -, James Macharia
+Cynthia Muriithi, Protus Oduor
+Louisa Konchellah, *Habiba Juma
+Tom Maina Chege, Kalama Hafisau
+Tony Kioko, *Margaret Wairimu
+Jimmi Muriuki Karuiru, *Michael Kinuthia Karanja
+Cheruiyot Collins, Catherine Wangui Njoka
+Victor Ireri, Wycliff Kenyoni -
+Hassib Ibrahim, *Eric Mwendwa
