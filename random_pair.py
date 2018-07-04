@@ -3,17 +3,15 @@
 # Module that randomizes items in a list.
 from random import shuffle
 
-# Opens a text file with names of students
+# Opens a text file with names of x students
 with open('x.txt') as x_names:
   names = x_names.readlines()
-
-# print(class_names)
 
 # Strips the line breaks
 x_list = [name.strip() for name in names]
 # print(name_list)
 
-
+# Opens a text file with name of k students
 with open('k.txt') as k_names:
   names = k_names.readlines()
 
