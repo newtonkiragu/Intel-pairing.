@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 # Module that randomizes items in a list.
+import pyperclip
 from random import shuffle
 
 # Opens a text file with names of x students
@@ -24,13 +25,15 @@ shuffle(k_list)
 
 # Transforms the two list into a list with tuples with pairs
 pair_list = list(zip(x_list, k_list))
+# pyperclip.copy(pair_list)
 # print(pair_list)
 
 # Creates and writes the name of pairs
 with open("random_pair.txt", "w") as output_file:
   # Iterates through the list and then extracts the names from the tuples. Puts the pair in new lines.
   output_file.write('\n'.join('{}, {}'.format(x[0], x[1]) for x in pair_list))
-
+fo = open('random_pair.txt', 'r').read()
+pyperclip.copy(fo)
 # print(output_file)
 
 """
